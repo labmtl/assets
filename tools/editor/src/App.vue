@@ -305,7 +305,7 @@ const refreshPreview = () => {
   }
 };
 
-import { watch, reactive } from 'vue';
+import { watch } from 'vue';
 watch([selectedSlideshowLabel, () => slideshowConfig.value.lang, () => slideshowConfig.value.isOverlay], () => {
   setTimeout(refreshPreview, 100);
 }, { deep: true });

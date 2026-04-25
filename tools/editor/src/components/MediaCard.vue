@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { Check, InfoFilled } from '@element-plus/icons-vue';
-import type { MediaItem } from './stores/manifest';
+import type { MediaItem } from '../stores/manifest';
 
 const props = defineProps<{
   item: MediaItem;
@@ -48,8 +48,9 @@ defineEmits(['toggle', 'edit']);
 
 const thumbnailUrl = computed(() => {
   // Try to find the 640w webp image
-  const img = props.item.formats.images.find(f => f.width === 640 && f.format === 'webp') 
-             || props.item.formats.images[0];
+  const img = props.item.formats.images.find((f: any) => f.width === 640 && f.format === 'webp')
+    || props.item.formats.images.find((f: any) => f.format === 'webp')
+    || props.item.formats.images[0];
   return `http://localhost:3000/${img?.path}`;
 });
 </script>

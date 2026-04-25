@@ -2,8 +2,8 @@ import { serve } from "bun";
 import { join, dirname } from "path";
 import { existsSync, readFileSync, writeFileSync, copyFileSync } from "fs";
 
-const PORT = 3000;
-const ASSETS_ROOT = join(import.meta.dir, "../../");
+const PORT = process.env.PORT || 3000;
+const ASSETS_ROOT = process.env.ASSETS_ROOT || join(import.meta.dir, "../../");
 const MANIFEST_PATH = join(ASSETS_ROOT, "processed_media/manifest.json");
 
 const server = serve({

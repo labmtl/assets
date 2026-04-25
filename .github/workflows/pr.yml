@@ -1,0 +1,33 @@
+name: Pull Request Check
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: |
+          cd tools/editor
+          bun install --frozen-lockfile
+
+      - name: Lint
+        run: bash .github/scripts/lint.sh
+
+      - name: Unit Test
+        run: bash .github/scripts/test.sh
+
+      - name: Docker Build
+        run: bash .github/scripts/docker-build.sh
+
+      - name: Integration Test
+        run: bash .github/scripts/integration-test.sh
