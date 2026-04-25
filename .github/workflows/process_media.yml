@@ -30,12 +30,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-generativeai
+          pip install requests
           sudo apt-get update && sudo apt-get install -y ffmpeg imagemagick libimage-exiftool-perl
 
       - name: Process new media files
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OVH_AI_TOKEN: ${{ secrets.OVH_AI_TOKEN }}
         run: |
           find uploads -type f | while read file; do
             if [ "$file" = "uploads/.gitkeep" ]; then continue; fi
@@ -44,7 +44,7 @@ jobs:
             python .github/scripts/process_file.py \
               --input-file "$file" \
               --file-hash "$file_hash" \
-              --gemini-api-key "$GEMINI_API_KEY" \
+              --api-token "$OVH_AI_TOKEN" \
               --github-repository "${{ github.repository }}" \
               --github-ref-for-raw-url "main"
           done

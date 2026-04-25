@@ -83,7 +83,7 @@ def main():
     parser = argparse.ArgumentParser(description="Process a single media file.")
     parser.add_argument("--input-file", required=True)
     parser.add_argument("--file-hash", required=True)
-    parser.add_argument("--gemini-api-key", required=True)
+    parser.add_argument("--api-token", required=True)
     parser.add_argument("--github-repository", required=True)
     parser.add_argument("--github-ref-for-raw-url", required=True)
     args = parser.parse_args()
@@ -92,10 +92,10 @@ def main():
     flag_file_path = FLAG_DIR / args.file_hash
     processed_steps, current_base_name = read_flag_file(flag_file_path)
 
-    # ---- Gemini Description ----
+    # ---- OVHcloud Description ----
     if STEP_GEMINI_DESCRIPTION not in processed_steps:
-        gemini_script = Path(__file__).parent / "get_gemini_description.py"
-        cmd = [sys.executable, str(gemini_script), args.gemini_api_key, args.input_file, str(DESCRIPTION_DIR)]
+        ovh_script = Path(__file__).parent / "get_ovh_description.py"
+        cmd = [sys.executable, str(ovh_script), args.api_token, args.input_file, str(DESCRIPTION_DIR)]
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode == 0:
             current_base_name = result.stdout.strip()
@@ -104,7 +104,7 @@ def main():
                 record_base_name_in_flag_file(flag_file_path, current_base_name)
                 processed_steps.add(STEP_GEMINI_DESCRIPTION)
         else:
-            log_message(f"Gemini failed: {result.stderr}", "ERROR")
+            log_message(f"OVHcloud failed: {result.stderr}", "ERROR")
 
     if not current_base_name:
         current_base_name = f"media-{args.file_hash[:8]}"
@@ -122,7 +122,7 @@ def main():
                 # JPG & WebP
                 for fmt in ['jpg', 'webp']:
                     out = IMAGE_DIR / f"{current_base_name}-{w}w.{fmt}"
-                    subprocess.run(["convert", args.input_file, "-resize", f"{w}x>", "-quality", "85" if fmt=='jpg' else "80", str(out)], check=True)
+                    subprocess.run(["magick", args.input_file, "-resize", f"{w}x>", "-quality", "85" if fmt=='jpg' else "80", str(out)], check=True)
                     subprocess.run(["exiftool", "-tagsFromFile", args.input_file, "-all:all", "-overwrite_original", str(out)], check=False)
                 log_message(f"Converted to {w}w")
             except Exception as e:

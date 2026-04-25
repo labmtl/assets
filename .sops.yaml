@@ -1,0 +1,16 @@
+---
+creation_rules:
+  - path_regex: .*\.env.*
+    input_type: dotenv
+    age: >-
+      age1r8k0rqvg6phdmc825skh3ewp22tqepyqxcewux5gcn40qy3cxy2s8tprkp,
+      age1886t3jl7dxwdrmtlprlh0aayzz3384jrrqjx07f2vnu285wxqqjqfz5nlq,
+      age1dmqxn0tmpv89k4anyqqhstce3gcrafhefdh7dt283lrhfrtp54nqlk446v,
+      age1vlp802cuq2wj3myl9wvrfuyarumws5kd79d026c62zl43m6z79yq74cgfc
+  - path_regex: .*\.enc\.yaml$
+    encrypted_regex: '^(data|stringData)$'
+    age: >-
+      age1r8k0rqvg6phdmc825skh3ewp22tqepyqxcewux5gcn40qy3cxy2s8tprkp,
+      age1886t3jl7dxwdrmtlprlh0aayzz3384jrrqjx07f2vnu285wxqqjqfz5nlq,
+      age1dmqxn0tmpv89k4anyqqhstce3gcrafhefdh7dt283lrhfrtp54nqlk446v,
+      age1vlp802cuq2wj3myl9wvrfuyarumws5kd79d026c62zl43m6z79yq74cgfc

@@ -6,7 +6,7 @@ Automated media asset management repository for LabMTL.
 
 1.  **Upload**: Add your raw images or videos to the `uploads/` directory.
 2.  **Automated Processing**: A GitHub Action is triggered on every push to `uploads/`.
-    *   **IA Description**: Gemini 1.5 Flash generates a concise filename and a detailed description/alt-text.
+    *   **IA Description**: OVHcloud AI Endpoints (Qwen 2.5 VL) generates a concise filename and a detailed description/alt-text.
     *   **Image Conversion**: Images are resized to multiple widths (1920, 1280, 640) and converted to JPG and WebP.
     *   **Video Conversion**: Videos are transcoded to 1080p and 720p in MP4 and WebM formats.
     *   **HTML Snippets**: Responsive HTML snippets are generated for easy embedding.
@@ -32,3 +32,17 @@ You can fetch `processed_media/manifest.json` to get a list of all available ass
 // Example usage
 const manifest = await fetch('https://raw.githubusercontent.com/labmtl/assets/main/processed_media/manifest.json').then(r => r.json());
 ```
+
+## Setup
+
+Please refer to [SETUP.md](SETUP.md) for instructions on how to configure OVHcloud AI Endpoints and your local development environment.
+
+## Local Usage
+
+You can process all files in the `uploads/` directory locally using the provided script:
+
+```bash
+./local_process_all.sh
+```
+
+The script is **idempotent**: it uses flag files in `processed_flags/` to skip assets that have already been processed, saving time and AI tokens.

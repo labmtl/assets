@@ -1,0 +1,7 @@
+This image is a screenshot of a website for "Resto Danny," which appears to be dedicated to the legacy of Danny Ng and his contributions to the community. The top section of the image features a navigation bar with links labeled "L'Histoire," "Le Fonds," "Le Projet," "Le Modèle," and a button that says "Nous soutenir." The main content area has a large, bold title in French: "Héritage Danny Ng : Nourrir la communauté," which translates to "Danny Ng Heritage: Feeding the Community." Below the title, there is a subtitle that reads, "De la passion d'un homme à une mission durable pour Montréal," meaning "From a man's passion to a sustainable mission for Montreal."
+
+The text explains that the site is dedicated to the memory of Danny (Wing Chai) Ng and the continuation of his work. It mentions transforming his heritage into concrete action for food security in the Villeray-Saint-Michel-Parc-Extension district and throughout Montreal. At the bottom of the text, there is an orange button with the text "Soutenir le projet," which means "Support the project."
+
+The background of the image shows an aerial view of a residential area with houses, streets, and green spaces, likely representing the community mentioned in the text.
+
+Filename: RestoDanny_HeritageWebsite_Screenshot.jpg

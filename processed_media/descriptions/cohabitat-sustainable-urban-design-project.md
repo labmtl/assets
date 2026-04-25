@@ -1,0 +1,5 @@
+This image is a screenshot from the website "Cohabitat.cc," showcasing a project focused on sustainable urban living. The left side of the image features text in French that translates to "Sustainable Design." It describes an urban sanctuary for builders of a future without cars, emphasizing architecture designed for relational richness rather than material accumulation. Below the text, there are two buttons: one labeled "Discover the model" with a download icon, and another labeled "Plan."
+
+The right side of the image displays a photograph of a modern building with large glass windows and a sign that reads "COHABITAT." The building has a green wall and a balcony with string lights. There are people visible inside the building, which appears to house a restaurant or café. A cyclist is seen passing by in front of the building. A caption below the photo indicates that the proposed project is located in Bellechasse, near the Rosemont metro station, with an expected delivery date of summer 2029.
+
+Filename: Cohabitat_Sustainable_Urban_Design_Project.jpg
