@@ -222,7 +222,8 @@
             
             const webp1280 = item.formats.images.find(f => f.width === 1280 && f.format === 'webp');
             const jpg1280 = item.formats.images.find(f => f.width === 1280 && f.format === 'jpg');
-            const imgSrc = (webp1280 || jpg1280 || item.formats.images[0]).path;
+            const ASSET_BASE_URL = "https://raw.githack.com/labmtl/assets/main/";
+            const imgSrc = ASSET_BASE_URL + (webp1280 || jpg1280 || item.formats.images[0]).path;
             const hasUrl = !!item.source_url;
 
             const slide = document.createElement('div');
