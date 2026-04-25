@@ -276,98 +276,6 @@
     }
   },
   {
-    "id": "4de42c0cc55470d5ca9eacf76678f28e",
-    "base_name": "generic-media",
-    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
-    "steps": [
-      "gemini_description",
-      "image_conversion",
-      "html_generation"
-    ],
-    "formats": {
-      "images": [
-        {
-          "width": 1920,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1920w.jpg"
-        },
-        {
-          "width": 1280,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1280w.jpg"
-        },
-        {
-          "width": 640,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-640w.jpg"
-        },
-        {
-          "width": 1920,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1920w.webp"
-        },
-        {
-          "width": 1280,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1280w.webp"
-        },
-        {
-          "width": 640,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-640w.webp"
-        }
-      ],
-      "videos": [],
-      "html": "processed_media/html/generic-media.html"
-    }
-  },
-  {
-    "id": "70b55c0fc3eb9267eb6fc8fc864bbf3f",
-    "base_name": "generic-media",
-    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
-    "steps": [
-      "gemini_description",
-      "image_conversion",
-      "html_generation"
-    ],
-    "formats": {
-      "images": [
-        {
-          "width": 1920,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1920w.jpg"
-        },
-        {
-          "width": 1280,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1280w.jpg"
-        },
-        {
-          "width": 640,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-640w.jpg"
-        },
-        {
-          "width": 1920,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1920w.webp"
-        },
-        {
-          "width": 1280,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1280w.webp"
-        },
-        {
-          "width": 640,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-640w.webp"
-        }
-      ],
-      "videos": [],
-      "html": "processed_media/html/generic-media.html"
-    }
-  },
-  {
     "id": "6b824d1cfa0e01b61859f3e956f15f40",
     "base_name": "generic-media",
     "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
@@ -414,53 +322,7 @@
     }
   },
   {
-    "id": "a347c570f29fcda5756eed3edaad1b0f",
-    "base_name": "generic-media",
-    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
-    "steps": [
-      "gemini_description",
-      "image_conversion",
-      "html_generation"
-    ],
-    "formats": {
-      "images": [
-        {
-          "width": 1920,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1920w.jpg"
-        },
-        {
-          "width": 1280,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-1280w.jpg"
-        },
-        {
-          "width": 640,
-          "format": "jpg",
-          "path": "processed_media/images/generic-media-640w.jpg"
-        },
-        {
-          "width": 1920,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1920w.webp"
-        },
-        {
-          "width": 1280,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-1280w.webp"
-        },
-        {
-          "width": 640,
-          "format": "webp",
-          "path": "processed_media/images/generic-media-640w.webp"
-        }
-      ],
-      "videos": [],
-      "html": "processed_media/html/generic-media.html"
-    }
-  },
-  {
-    "id": "69fe23a2a0d590ace0bfe8f6f1114026",
+    "id": "70b55c0fc3eb9267eb6fc8fc864bbf3f",
     "base_name": "generic-media",
     "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
     "steps": [
@@ -553,6 +415,144 @@
   },
   {
     "id": "a3a05e6849d56fef1daafca870d28f01",
+    "base_name": "generic-media",
+    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "a347c570f29fcda5756eed3edaad1b0f",
+    "base_name": "generic-media",
+    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "4de42c0cc55470d5ca9eacf76678f28e",
+    "base_name": "generic-media",
+    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/generic-media-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/generic-media-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "69fe23a2a0d590ace0bfe8f6f1114026",
     "base_name": "generic-media",
     "description": "This image is a screenshot from the website \"Cohabitat.cc,\" displaying financial details and operational costs for a project. The layout is divided into several sections:\n\n1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:\n   - Hypothèques: $33,630.81\n   - Obligations Comm.: $16,355.99\n   - OPEX Total: $51,437.10\n   - Revenus (Comm. + Flottantes): $21,859.08\n   - Solde Net Mensuel: $79,564.82\n\n2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:\n   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)\n   - Énergie & Chauffage: $4,180.65\n   - Provision Amortissement: $3,718.25\n\n3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:\n   - Rent: $2,652.16/month\n   - Impact Apport Initial: Remboursement obligations (-$1,363)\n   - Coût net réel: $1,289.16\n\n4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:\n   - Total Capital injecté de départ: $206,528.90\n   - Mise de Fonds Hypothécaire: $174,112.23\n   - Frais de Lancement: $32,416.67\n\nThe image also includes a sidebar with social media icons and a menu button at the top right corner.\n\n**Filename**: Cohabitat_Financial_Operational_Details_Screenshot",
     "steps": [
