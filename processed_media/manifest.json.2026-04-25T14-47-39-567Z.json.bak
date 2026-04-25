@@ -1,0 +1,434 @@
+[
+  {
+    "id": "fcd3ed44ae445dfa4144e95e0ed3ce60",
+    "base_name": "ai-powered-cv-creator-french-webpage-screenshot",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/ai-powered-cv-creator-french-webpage-screenshot.html"
+    }
+  },
+  {
+    "id": "69454ab40fd2e30802b36376e272ae99",
+    "base_name": "benjamin-rankin-parti-vert-campaign-page",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/benjamin-rankin-parti-vert-campaign-page.html"
+    }
+  },
+  {
+    "id": "d2d61e3986aa0af3436cc1117bd974a7",
+    "base_name": "cohabitat-sustainable-urban-design-project",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/cohabitat-sustainable-urban-design-project.html"
+    }
+  },
+  {
+    "id": "0d42367d7148589d864415c651108b26",
+    "base_name": "cv-list-french-interface",
+    "description": "This image shows a user interface for managing CVs (curriculum vitae) on a website or application. The page is titled \"Liste des CVs\" which translates to \"List of CVs\" in English. Below the title, there is a brief description stating that users can create new CVs, modify existing ones, or export them as PDFs.\n\nThe main section of the page displays a table with columns labeled \"Langue\" (Language), \"Titre\" (Title), \"Dernière mise à jour\" (Last Updated), \"Statut\" (Status), \"Description du poste\" (Job Description), and \"Actions\". \n\nThere is one entry in the table:\n- Language: Français (French)\n- Title: Profil entrepreneur (Entrepreneur Profile)\n- Last Updated: 21 avr. 2026 (April 21, 2026)\n- Status: En traitement (In progress)\n- Job Description: Aucune description de poste (No job description)\n\nUnder the \"Actions\" column, there are three icons: an eye icon (likely for viewing), a pencil icon (likely for editing), and a downward arrow icon (likely for downloading).\n\nAt the top left corner, there is a logo resembling a green paperclip, and at the top right corner, there is a menu icon.\n\nFilename: \"CV_List_French_Interface.png\"",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/cv-list-french-interface.html"
+    }
+  },
+  {
+    "id": "c1548fcc00ebc8fa77abda2971cb3823",
+    "base_name": "cv-list-french-interface",
+    "description": "This image shows a user interface for managing CVs (curriculum vitae) on a website or application. The page is titled \"Liste des CVs\" which translates to \"List of CVs\" in English. Below the title, there is a brief description stating that users can create new CVs, modify existing ones, or export them as PDFs.\n\nThe main section of the page displays a table with columns labeled \"Langue\" (Language), \"Titre\" (Title), \"Dernière mise à jour\" (Last Updated), \"Statut\" (Status), \"Description du poste\" (Job Description), and \"Actions\". \n\nThere is one entry in the table:\n- Language: Français (French)\n- Title: Profil entrepreneur (Entrepreneur Profile)\n- Last Updated: 21 avr. 2026 (April 21, 2026)\n- Status: En traitement (In progress)\n- Job Description: Aucune description de poste (No job description)\n\nUnder the \"Actions\" column, there are three icons: an eye icon (likely for viewing), a pencil icon (likely for editing), and a downward arrow icon (likely for downloading).\n\nAt the top left corner, there is a logo resembling a green paperclip, and at the top right corner, there is a menu icon.\n\nFilename: \"CV_List_French_Interface.png\"",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/cv-list-french-interface.html"
+    }
+  },
+  {
+    "id": "33b5a0c7f69adcbab1957c87465b79df",
+    "base_name": "elvira-carhuallanqui-parc-extension-311-service-info-fr",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/elvira-carhuallanqui-parc-extension-311-service-info-fr.html"
+    }
+  },
+  {
+    "id": "5a5e872cbeeb38e3e87072ff14c64efa",
+    "base_name": "neuf-initiative-website-screenshot",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/neuf-initiative-website-screenshot.html"
+    }
+  },
+  {
+    "id": "8ed1ac622b6d41075a5c22ac7f9ece89",
+    "base_name": "parti-vert-campaign-screenshot",
+    "description": "This image is a screenshot of a webpage from the Parti Vert (Green Party) website, featuring Benjamin Rankin. The top section has a dark green background with navigation links on the left side, including \"Accueil,\" \"À propos,\" \"Priorités,\" \"Thèmes,\" \"Pourquoi Vert ?,\" \"Rejoignez,\" and \"Terrebonne.\" There is also a white button labeled \"S'impliquer\" (Get Involved) on the right side.\n\nBelow the navigation menu, there is a white section with four illustrated cards promoting different campaign messages:\n1. \"Votez pour PLUS DE SOINS DE SANTÉ\" (Vote for MORE HEALTHCARE), with an illustration of hands holding a tree with colorful fruits.\n2. \"Votez pour PAIX ET SÉCURITÉ\" (Vote for PEACE AND SECURITY), with an illustration of people hugging each other.\n3. \"Votez pour METTRE FIN À LA HAINE\" (Vote for ENDING HATE), with an illustration of hands holding megaphones.\n4. \"Votez pour RÉCONCILIATION AUTOCHTONE\" (Vote for INDIGENOUS RECONCILIATION), with an illustration of hands forming a circle around a sun.\n\nA \"Mettre en pause\" (Pause) button is located above these cards.\n\nFilename: `parti_vert_campaign_screenshot.png`",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/parti-vert-campaign-screenshot.html"
+    }
+  },
+  {
+    "id": "e87b262e8ad114f48eb233bd6be3c4e0",
+    "base_name": "restodanny-heritagewebsite-screenshot",
+    "description": "...",
+    "labels": [
+      "portfolio"
+    ],
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/restodanny-heritagewebsite-screenshot.html"
+    }
+  }
+]
