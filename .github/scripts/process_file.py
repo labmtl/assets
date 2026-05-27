@@ -122,7 +122,7 @@ def main():
                 # JPG & WebP
                 for fmt in ['jpg', 'webp']:
                     out = IMAGE_DIR / f"{current_base_name}-{w}w.{fmt}"
-                    subprocess.run(["magick", args.input_file, "-resize", f"{w}x>", "-quality", "85" if fmt=='jpg' else "80", str(out)], check=True)
+                    subprocess.run(["convert", args.input_file, "-resize", f"{w}x>", "-quality", "85" if fmt=='jpg' else "80", str(out)], check=True)
                     subprocess.run(["exiftool", "-tagsFromFile", args.input_file, "-all:all", "-overwrite_original", str(out)], check=False)
                 log_message(f"Converted to {w}w")
             except Exception as e:
