@@ -11,6 +11,16 @@ def main():
         print("Flag directory not found. Skipping manifest generation.")
         return
 
+    existing_assets = {}
+    if manifest_path.exists():
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for asset in data:
+                    existing_assets[asset["id"]] = asset
+        except Exception as e:
+            print(f"Warning: could not read existing manifest: {e}")
+
     assets = []
     
     # Iterate over all flags (each flag corresponds to an original upload hash)
@@ -36,10 +46,13 @@ def main():
         desc_path = description_dir / f"{base_name}.md"
         description = desc_path.read_text(encoding="utf-8") if desc_path.exists() else ""
         
+        existing_asset = existing_assets.get(flag_file.name, {})
+
         asset = {
             "id": flag_file.name, # The original MD5 hash
-            "base_name": base_name,
-            "description": description,
+            "base_name": existing_asset.get("base_name", base_name),
+            "description": existing_asset.get("description", description),
+            "labels": existing_asset.get("labels", []),
             "steps": steps,
             "formats": {
                 "images": [],
@@ -72,8 +85,14 @@ def main():
         
         assets.append(asset)
     
-    # Sort assets by base_name
-    assets.sort(key=lambda x: x["base_name"])
+    # Sort assets by base_name (handling cases where base_name might be a dict)
+    def get_sort_key(x):
+        bn = x["base_name"]
+        if isinstance(bn, dict):
+            return str(bn.get("en", bn.get("fr", "")))
+        return str(bn)
+
+    assets.sort(key=get_sort_key)
     
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(assets, f, indent=2, ensure_ascii=False)
