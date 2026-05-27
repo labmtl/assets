@@ -1,27 +1,3 @@
-This image is a screenshot from the website "Cohabitat.cc," displaying financial details and operational costs for a project. The layout is divided into several sections:
+The image is a logo for "HABILE.ca," which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text "HABILE.ca" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: "Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées," which translates to "Support hub for builders of local and engaged initiatives." Underneath this, there is a slogan that reads "« Reprenez le contrôle de votre milieu de vie »," meaning "Take control of your living environment."
 
-1. **Projet Global (Mensuel)**: This section, highlighted in black, shows monthly financial projections:
-   - Hypothèques: $33,630.81
-   - Obligations Comm.: $16,355.99
-   - OPEX Total: $51,437.10
-   - Revenus (Comm. + Flottantes): $21,859.08
-   - Solde Net Mensuel: $79,564.82
-
-2. **Détail des Frais d'Opération (Mensuel)**: This section lists monthly operational expenses:
-   - Services & Gestion: Maintenance & Nettoyage ($2,500), Gestion Administrative ($1,000), Internet & Tech ($250), Vérification Comptable ($300)
-   - Énergie & Chauffage: $4,180.65
-   - Provision Amortissement: $3,718.25
-
-3. **Loyers Fondateurs (Par Suite)**: This orange-highlighted section provides details on founder rents per suite:
-   - Rent: $2,652.16/month
-   - Impact Apport Initial: Remboursement obligations (-$1,363)
-   - Coût net réel: $1,289.16
-
-4. **Apport Par Fondateur (12)**: This section outlines the total capital investment by founders:
-   - Total Capital injecté de départ: $206,528.90
-   - Mise de Fonds Hypothécaire: $174,112.23
-   - Frais de Lancement: $32,416.67
-
-The image also includes a sidebar with social media icons and a menu button at the top right corner.
-
-**Filename**: Cohabitat_Financial_Operational_Details_Screenshot
+**Filename:** HABILE_ca_Logo_and_Tagline.png

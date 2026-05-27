@@ -2,17 +2,7 @@
   {
     "id": "fcd3ed44ae445dfa4144e95e0ed3ce60",
     "base_name": "ai-powered-cv-creator-french-webpage-screenshot",
-    "title": {
-      "en": "AI-Powered CV Builder - French Interface",
-      "fr": "Générateur de CV par IA - Interface Française"
-    },
-    "description": {
-      "en": "A screenshot of the AI-powered CV builder showing the French localized interface, highlighting multi-language support and automated document generation.",
-      "fr": "Une capture d'écran du générateur de CV par IA montrant l'interface localisée en français, soulignant le support multilingue et la génération automatisée de documents."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot of a webpage promoting an AI-powered CV creation service. The main text, written in French, reads: \"Créez un CV qui vous fait embaucher — Propulsé par l'IA,\" which translates to \"Create a CV that gets you hired — Powered by AI.\" Above the main text, there is a smaller banner with the text \"Gratuit • Alimenté par l'IA,\" meaning \"Free • Powered by AI.\" Below the main text, there is a brief description stating that users can create a professional and multilingual CV in a few minutes, optimized for their dream job.\n\nThere are two buttons below the description: one blue button labeled \"Commencer gratuitement\" (Start for free) and another outlined button labeled \"En savoir plus\" (Learn more). To the right of the text, there is an illustration of a CV template with a blue header and placeholder text lines.\n\nThe background is white with black sidebars on the left and right edges. In the top right corner, there is a menu icon.\n\nFilename: AI_Powered_CV_Creator_French_Webpage_Screenshot",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -20,32 +10,45 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/ai-powered-cv-creator-french-webpage-screenshot-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/ai-powered-cv-creator-french-webpage-screenshot.html"
-    },
-    "source_url": "https://cv.coderbunker.ca"
+    }
   },
   {
     "id": "69454ab40fd2e30802b36376e272ae99",
     "base_name": "benjamin-rankin-parti-vert-campaign-page",
-    "title": {
-      "en": "Benjamin Rankin - Green Party Campaign",
-      "fr": "Benjamin Rankin - Campagne du Parti Vert"
-    },
-    "description": {
-      "en": "Digital campaign materials for Benjamin Rankin, representing the Green Party of Canada, featuring sustainable policy highlights and voter engagement tools.",
-      "fr": "Matériel de campagne numérique pour Benjamin Rankin, représentant le Parti Vert du Canada, présentant les points forts des politiques durables et des outils d'engagement des électeurs."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot of a campaign webpage for Benjamin Rankin, a candidate for the Parti Vert (Green Party). The top section features the Parti Vert logo and name in white text on a dark green background, along with Benjamin Rankin's name. There are social media icons for Facebook and Instagram, as well as a button labeled \"S'impliquer\" (Get Involved).\n\nThe main content area has a bright green background. On the left side, there is text in French that reads: \"Élection partielle | 13 avril 2026\" (By-election | April 13, 2026) and \"Votez pour du Changement dans Terrebonne\" (Vote for Change in Terrebonne). The word \"Changement\" is highlighted in yellow. Below this, there is a description stating that Benjamin Rankin is a community leader ready to fight for affordable housing, health, education, and the environment. A button labeled \"Mes priorités\" (My priorities) is also present.\n\nOn the right side, there is a circular photo of Benjamin Rankin, who is smiling and wearing a maroon hoodie. His name is written below the photo in large white letters.\n\nAt the bottom of the image, there is a yellow section with the text \"Faites passer le message!\" (Spread the message!) in black.\n\nFilename: Benjamin_Rankin_Parti_Vert_Campaign_Page.png",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -53,32 +56,45 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/benjamin-rankin-parti-vert-campaign-page-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/benjamin-rankin-parti-vert-campaign-page.html"
-    },
-    "source_url": ""
+    }
   },
   {
     "id": "d2d61e3986aa0af3436cc1117bd974a7",
     "base_name": "cohabitat-sustainable-urban-design-project",
-    "title": {
-      "en": "Cohabitat - Sustainable Urban Living",
-      "fr": "Cohabitat - Vie Urbaine Durable"
-    },
-    "description": {
-      "en": "Financial and operational overview of the Cohabitat project, a sustainable urban design initiative focusing on community living and eco-friendly housing.",
-      "fr": "Aperçu financier et opérationnel du projet Cohabitat, une initiative de design urbain durable axée sur la vie communautaire et le logement écologique."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot from the website \"Cohabitat.cc,\" showcasing a project focused on sustainable urban living. The left side of the image features text in French that translates to \"Sustainable Design.\" It describes an urban sanctuary for builders of a future without cars, emphasizing architecture designed for relational richness rather than material accumulation. Below the text, there are two buttons: one labeled \"Discover the model\" with a download icon, and another labeled \"Plan.\"\n\nThe right side of the image displays a photograph of a modern building with large glass windows and a sign that reads \"COHABITAT.\" The building has a green wall and a balcony with string lights. There are people visible inside the building, which appears to house a restaurant or café. A cyclist is seen passing by in front of the building. A caption below the photo indicates that the proposed project is located in Bellechasse, near the Rosemont metro station, with an expected delivery date of summer 2029.\n\nFilename: Cohabitat_Sustainable_Urban_Design_Project.jpg",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -86,61 +102,73 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cohabitat-sustainable-urban-design-project-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/cohabitat-sustainable-urban-design-project.html"
-    },
-    "source_url": ""
+    }
   },
   {
-    "id": "0d42367d7148589d864415c651108b26",
-    "base_name": "cv-list-french-interface",
-    "title": {
-      "en": "CV Management Dashboard",
-      "fr": "Tableau de Bord de Gestion des CV"
-    },
-    "description": {
-      "en": "User interface for managing curriculum vitae, allowing users to create, edit, and export profiles in multiple languages.",
-      "fr": "Interface utilisateur pour la gestion des curriculums vitae, permettant aux utilisateurs de créer, modifier et exporter des profils dans plusieurs langues."
-    },
-    "labels": [],
+    "id": "83b82274e40d8e2b0e1c3d735ee0bc98",
+    "base_name": "connected-homes-network-illustration",
+    "description": "The image is a stylized, colorful illustration featuring two houses surrounded by an interconnected network of dots and lines. The houses are depicted with simple geometric shapes: one has a triangular roof and a square window, while the other has a flat roof and a rectangular window. The network around the houses consists of various colored dots connected by lines, forming a web-like structure that encircles the houses. The colors used include shades of blue, green, orange, and yellow, creating a vibrant and dynamic appearance.\n\nFilename: \"Connected_Homes_Network_Illustration\"",
     "steps": [
       "gemini_description",
-      "image_conversion",
       "html_generation"
     ],
     "formats": {
-      "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/cv-list-french-interface-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/cv-list-french-interface-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/cv-list-french-interface-640w.webp" }
-      ],
+      "images": [],
       "videos": [],
-      "html": "processed_media/html/cv-list-french-interface.html"
-    },
-    "source_url": ""
+      "html": "processed_media/html/connected-homes-network-illustration.html"
+    }
+  },
+  {
+    "id": "8253c08689cbe35942e4c38f17876660",
+    "base_name": "connected-homes-network-illustration",
+    "description": "The image is a stylized, colorful illustration featuring two houses surrounded by an interconnected network of dots and lines. The houses are depicted with simple geometric shapes: one has a triangular roof and a square window, while the other has a flat roof and a rectangular window. The network around the houses consists of various colored dots connected by lines, forming a web-like structure that encircles the houses. The colors used include shades of blue, green, orange, and yellow, creating a vibrant and dynamic appearance.\n\nFilename: \"Connected_Homes_Network_Illustration\"",
+    "steps": [
+      "gemini_description",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/connected-homes-network-illustration.html"
+    }
   },
   {
     "id": "c1548fcc00ebc8fa77abda2971cb3823",
     "base_name": "cv-list-french-interface",
-    "title": {
-      "en": "CV List View - French",
-      "fr": "Liste des CV - Français"
-    },
-    "description": {
-      "en": "Detailed view of the CV list interface, demonstrating the platform's ability to handle French character sets and localized formatting.",
-      "fr": "Vue détaillée de l'interface de liste des CV, démontrant la capacité de la plateforme à gérer les jeux de caractères français et le formatage localisé."
-    },
-    "labels": [],
+    "description": "This image shows a user interface for managing CVs (curriculum vitae) on a website or application. The page is titled \"Liste des CVs\" which translates to \"List of CVs\" in English. Below the title, there is a brief description stating that users can create new CVs, modify existing ones, or export them as PDFs.\n\nThe main section of the page displays a table with columns labeled \"Langue\" (Language), \"Titre\" (Title), \"Dernière mise à jour\" (Last Updated), \"Statut\" (Status), \"Description du poste\" (Job Description), and \"Actions\". \n\nThere is one entry in the table:\n- Language: Français (French)\n- Title: Profil entrepreneur (Entrepreneur Profile)\n- Last Updated: 21 avr. 2026 (April 21, 2026)\n- Status: En traitement (In progress)\n- Job Description: Aucune description de poste (No job description)\n\nUnder the \"Actions\" column, there are three icons: an eye icon (likely for viewing), a pencil icon (likely for editing), and a downward arrow icon (likely for downloading).\n\nAt the top left corner, there is a logo resembling a green paperclip, and at the top right corner, there is a menu icon.\n\nFilename: \"CV_List_French_Interface.png\"",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -148,32 +176,91 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/cv-list-french-interface-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/cv-list-french-interface-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/cv-list-french-interface-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/cv-list-french-interface-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/cv-list-french-interface.html"
-    },
-    "source_url": ""
+    }
+  },
+  {
+    "id": "0d42367d7148589d864415c651108b26",
+    "base_name": "cv-list-french-interface",
+    "description": "This image shows a user interface for managing CVs (curriculum vitae) on a website or application. The page is titled \"Liste des CVs\" which translates to \"List of CVs\" in English. Below the title, there is a brief description stating that users can create new CVs, modify existing ones, or export them as PDFs.\n\nThe main section of the page displays a table with columns labeled \"Langue\" (Language), \"Titre\" (Title), \"Dernière mise à jour\" (Last Updated), \"Statut\" (Status), \"Description du poste\" (Job Description), and \"Actions\". \n\nThere is one entry in the table:\n- Language: Français (French)\n- Title: Profil entrepreneur (Entrepreneur Profile)\n- Last Updated: 21 avr. 2026 (April 21, 2026)\n- Status: En traitement (In progress)\n- Job Description: Aucune description de poste (No job description)\n\nUnder the \"Actions\" column, there are three icons: an eye icon (likely for viewing), a pencil icon (likely for editing), and a downward arrow icon (likely for downloading).\n\nAt the top left corner, there is a logo resembling a green paperclip, and at the top right corner, there is a menu icon.\n\nFilename: \"CV_List_French_Interface.png\"",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/cv-list-french-interface-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/cv-list-french-interface-640w.webp"
+        }
+      ],
+      "videos": [],
+      "html": "processed_media/html/cv-list-french-interface.html"
+    }
   },
   {
     "id": "33b5a0c7f69adcbab1957c87465b79df",
     "base_name": "elvira-carhuallanqui-parc-extension-311-service-info-fr",
-    "title": {
-      "en": "Parc-Extension 311 Service Guide",
-      "fr": "Guide des Services 311 - Parc-Extension"
-    },
-    "description": {
-      "en": "Localized community service information for the Parc-Extension neighborhood, providing residents with easy access to municipal resources.",
-      "fr": "Informations sur les services communautaires localisés pour le quartier Parc-Extension, offrant aux résidents un accès facile aux ressources municipales."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot of a webpage from \"Projet Montréal,\" featuring Elvira Carhuallanqui, the city councillor for Parc-Extension. The page has a green background with white text and is primarily in French. \n\nAt the top left, there is a circular profile picture of Elvira Carhuallanqui, accompanied by her name and title. Below her name, there are language options including Français, English, Español, Ελληνικά, ਪੰਜਾਬੀ, বাংলা, اردو, and हिन्दी, with \"Français\" highlighted.\n\nThe main heading reads \"Votre pouvoir d'agir sur Parc-Extension,\" which translates to \"Your power to act on Parc-Extension.\" It emphasizes the importance of reporting issues using the 311 service to maintain a clean and safe environment.\n\nBelow the heading, there are two sections:\n1. **Application 311**: Describes the app as the fastest way to report issues like potholes, graffiti, and broken streetlights, with a button labeled \"Télécharger l'app\" (Download the app).\n2. **Ligne 311**: Encourages calling an agent 7 days a week for any questions about municipal services, with a prompt to dial 311.\n\nFurther down, there is a list of issues people can intervene on, such as uncollected garbage, damaged sidewalks or roads, defective street lighting, snow removal problems, and vandalized urban furniture.\n\nFilename: `Elvira_Carhuallanqui_Parc_Extension_311_Service_Info_Fr.png`",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -181,32 +268,206 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/elvira-carhuallanqui-parc-extension-311-service-info-fr-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/elvira-carhuallanqui-parc-extension-311-service-info-fr.html"
-    },
-    "source_url": "https://elvirac.ca"
+    }
+  },
+  {
+    "id": "a3a05e6849d56fef1daafca870d28f01",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "70b55c0fc3eb9267eb6fc8fc864bbf3f",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "69fe23a2a0d590ace0bfe8f6f1114026",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "6b824d1cfa0e01b61859f3e956f15f40",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "4de42c0cc55470d5ca9eacf76678f28e",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "0eb127252ee66c4b34f7059cfd914170",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "80f4b2f0f0ddfb7283d1bedfd30b1192",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "a347c570f29fcda5756eed3edaad1b0f",
+    "base_name": "generic-media",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be a Canadian organization. The logo features a stylized design of interconnected houses within a circular network, symbolizing community and connectivity. The houses are depicted in various colors—green, orange, and blue—and are connected by lines and dots, forming a web-like structure. To the right of the graphic, the text \"HABILE.ca\" is prominently displayed in bold, dark blue letters. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" Underneath this, there is a slogan that reads \"« Reprenez le contrôle de votre milieu de vie »,\" meaning \"Take control of your living environment.\"\n\n**Filename:** HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "image_conversion",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/generic-media.html"
+    }
+  },
+  {
+    "id": "b3eaf7728d4bbe85000c866aadb5dee4",
+    "base_name": "habile-ca-advertisement-participatory-housing-network-connections",
+    "description": "This image is an advertisement for HABILE.ca, which stands for \"Hébergement Participatif & Solidaire\" (Participatory and Solidarity Housing). The design features a network of interconnected dots and lines forming a web-like structure, symbolizing connectivity and community. At the center of the image, there is a stylized house icon with a gradient color scheme transitioning from blue to green to orange. Surrounding this central house are smaller illustrations of various buildings, including houses, a library, and other community structures, all connected by the same network pattern.\n\nThe text on the right side of the image reads \"HABILE.ca,\" followed by \"Hébergement Participatif & Solidaire\" and \"Réseau Habitation Hub Montréal.\" At the bottom, there is a motivational phrase in French: \"« Reprenez le contrôle de votre milieu de vie »,\" which translates to \"Take control of your living environment.\"\n\nFilename: HABILE_ca_Advertisement_Participatory_Housing_Network_Connections.jpg",
+    "steps": [
+      "gemini_description",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/habile-ca-advertisement-participatory-housing-network-connections.html"
+    }
+  },
+  {
+    "id": "0e92809e6c60f4ac23c6b4eb7d44c762",
+    "base_name": "habile-ca-advertisement-participatory-housing-network-montreal",
+    "description": "This image is an advertisement for \"HABILE.ca,\" which stands for \"Hébergement Participatif & Solidaire\" (Participatory and Solidarity Housing). The design features a network of interconnected dots and lines, symbolizing a community or network. At the center of the image, there are three stylized houses in blue, green, and orange, representing different types of housing. Surrounding these central houses are smaller illustrations of various buildings, including houses, a library, and other structures, all connected by the same network pattern.\n\nThe text on the right side of the image reads \"HABILE.ca Hébergement Participatif & Solidaire Réseau Habitation Hub Montréal,\" indicating that this initiative is part of a housing network hub in Montreal. At the bottom of the image, there is a French phrase: \"« Reprenez le contrôle de votre milieu de vie »,\" which translates to \"Take control of your living environment.\"\n\nFilename: \"Habile_Ca_Advertisement_Participatory_Housing_Network_Montreal\"",
+    "steps": [
+      "gemini_description",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/habile-ca-advertisement-participatory-housing-network-montreal.html"
+    }
+  },
+  {
+    "id": "9ed50baa44e714d1f162e4a669cce8b8",
+    "base_name": "habile-ca-logo-and-tagline",
+    "description": "The image is a logo for \"HABILE.ca,\" which appears to be an organization focused on supporting local initiatives and community builders. The logo features a colorful, interconnected design of houses and network-like structures, symbolizing community and connectivity. The houses are depicted in various colors such as blue, green, orange, and yellow, with windows represented by small squares. The text \"HABILE.ca\" is prominently displayed in bold, dark blue letters to the right of the logo. Below the main text, there is a tagline in French: \"Hub d'accompagnement des bâtisseurs d'initiatives locales et engagées,\" which translates to \"Support hub for builders of local and engaged initiatives.\" At the bottom, there is a motivational phrase: \"Reprenez le contrôle de votre milieu de vie,\" meaning \"Take control of your living environment.\"\n\nFilename: HABILE_ca_Logo_and_Tagline.png",
+    "steps": [
+      "gemini_description",
+      "html_generation"
+    ],
+    "formats": {
+      "images": [],
+      "videos": [],
+      "html": "processed_media/html/habile-ca-logo-and-tagline.html"
+    }
   },
   {
     "id": "5a5e872cbeeb38e3e87072ff14c64efa",
     "base_name": "neuf-initiative-website-screenshot",
-    "title": {
-      "en": "Quartier Neuf Initiative",
-      "fr": "Initiative Quartier Neuf"
-    },
-    "description": {
-      "en": "Official website showcase for the Neuf Initiative, a project dedicated to revitalizing urban spaces and fostering community innovation.",
-      "fr": "Présentation du site officiel de l'Initiative Neuf, un projet dédié à la revitalisation des espaces urbains et à la promotion de l'innovation communautaire."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot of a website for an initiative called \"Neuf.\" The top section features an aerial photograph of a neighborhood with houses, roads, and green spaces. Overlaid on this image is text in French that reads: \"Neuf : Votre quartier prend vie ! Ensemble, on renouvelle notre quartier,\" which translates to \"Neuf: Your neighborhood comes to life! Together, we renew our neighborhood.\"\n\nBelow the image, there is a navigation menu with options labeled \"À propos,\" \"Actions,\" \"Engager,\" and \"Contactez-nous.\" The main content area welcomes visitors to the Neuf site, describing it as a citizen initiative focused on cleanliness and renewal of the neighborhood. It emphasizes individual responsibility and collective action to improve the environment.\n\nThe \"Notre mission\" (Our mission) section explains that the Neuf initiative aims to promote a culture of cleanliness through individual actions and create a ripple effect for collective environmental stewardship.\n\nAt the bottom, there is a footer with copyright information for 2025, contact details (an email address), and a link to follow the initiative on Facebook.\n\nFilename: Neuf_Initiative_Website_Screenshot.jpg",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -214,30 +475,45 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/neuf-initiative-website-screenshot-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/neuf-initiative-website-screenshot-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/neuf-initiative-website-screenshot-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/neuf-initiative-website-screenshot.html"
-    },
-    "source_url": "https://quartierneuf.ca"
+    }
   },
   {
     "id": "8ed1ac622b6d41075a5c22ac7f9ece89",
     "base_name": "parti-vert-campaign-screenshot",
-    "title": {
-      "en": "Green Party Voter Engagement",
-      "fr": "Engagement des Électeurs - Parti Vert"
-    },
-    "description": {
-      "en": "A screenshot of a webpage from the Parti Vert website, featuring illustrated cards for healthcare, peace, and reconciliation as part of Benjamin Rankin's campaign.",
-      "fr": "Une capture d'écran du site du Parti Vert présentant des cartes illustrées pour la santé, la paix et la réconciliation dans le cadre de la campagne de Benjamin Rankin."
-    },
-    "labels": [],
+    "description": "This image is a screenshot of a webpage from the Parti Vert (Green Party) website, featuring Benjamin Rankin. The top section has a dark green background with navigation links on the left side, including \"Accueil,\" \"À propos,\" \"Priorités,\" \"Thèmes,\" \"Pourquoi Vert ?,\" \"Rejoignez,\" and \"Terrebonne.\" There is also a white button labeled \"S'impliquer\" (Get Involved) on the right side.\n\nBelow the navigation menu, there is a white section with four illustrated cards promoting different campaign messages:\n1. \"Votez pour PLUS DE SOINS DE SANTÉ\" (Vote for MORE HEALTHCARE), with an illustration of hands holding a tree with colorful fruits.\n2. \"Votez pour PAIX ET SÉCURITÉ\" (Vote for PEACE AND SECURITY), with an illustration of people hugging each other.\n3. \"Votez pour METTRE FIN À LA HAINE\" (Vote for ENDING HATE), with an illustration of hands holding megaphones.\n4. \"Votez pour RÉCONCILIATION AUTOCHTONE\" (Vote for INDIGENOUS RECONCILIATION), with an illustration of hands forming a circle around a sun.\n\nA \"Mettre en pause\" (Pause) button is located above these cards.\n\nFilename: `parti_vert_campaign_screenshot.png`",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -245,32 +521,45 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/parti-vert-campaign-screenshot-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/parti-vert-campaign-screenshot-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/parti-vert-campaign-screenshot-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/parti-vert-campaign-screenshot.html"
-    },
-    "source_url": ""
+    }
   },
   {
     "id": "e87b262e8ad114f48eb233bd6be3c4e0",
     "base_name": "restodanny-heritagewebsite-screenshot",
-    "title": {
-      "en": "Resto Danny - Heritage & Cuisine",
-      "fr": "Resto Danny - Héritage et Cuisine"
-    },
-    "description": {
-      "en": "Website for Resto Danny, showcasing culinary heritage and local dining experiences through a modern digital storefront.",
-      "fr": "Site web de Resto Danny, mettant en valeur l'héritage culinaire et les expériences gastronomiques locales via une vitrine numérique moderne."
-    },
-    "labels": [
-      "portfolio"
-    ],
+    "description": "This image is a screenshot of a website for \"Resto Danny,\" which appears to be dedicated to the legacy of Danny Ng and his contributions to the community. The top section of the image features a navigation bar with links labeled \"L'Histoire,\" \"Le Fonds,\" \"Le Projet,\" \"Le Modèle,\" and a button that says \"Nous soutenir.\" The main content area has a large, bold title in French: \"Héritage Danny Ng : Nourrir la communauté,\" which translates to \"Danny Ng Heritage: Feeding the Community.\" Below the title, there is a subtitle that reads, \"De la passion d'un homme à une mission durable pour Montréal,\" meaning \"From a man's passion to a sustainable mission for Montreal.\"\n\nThe text explains that the site is dedicated to the memory of Danny (Wing Chai) Ng and the continuation of his work. It mentions transforming his heritage into concrete action for food security in the Villeray-Saint-Michel-Parc-Extension district and throughout Montreal. At the bottom of the text, there is an orange button with the text \"Soutenir le projet,\" which means \"Support the project.\"\n\nThe background of the image shows an aerial view of a residential area with houses, streets, and green spaces, likely representing the community mentioned in the text.\n\nFilename: RestoDanny_HeritageWebsite_Screenshot.jpg",
     "steps": [
       "gemini_description",
       "image_conversion",
@@ -278,16 +567,39 @@
     ],
     "formats": {
       "images": [
-        { "width": 1920, "format": "jpg", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.jpg" },
-        { "width": 1280, "format": "jpg", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.jpg" },
-        { "width": 640, "format": "jpg", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.jpg" },
-        { "width": 1920, "format": "webp", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.webp" },
-        { "width": 1280, "format": "webp", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.webp" },
-        { "width": 640, "format": "webp", "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.webp" }
+        {
+          "width": 1920,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.jpg"
+        },
+        {
+          "width": 1280,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.jpg"
+        },
+        {
+          "width": 640,
+          "format": "jpg",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.jpg"
+        },
+        {
+          "width": 1920,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1920w.webp"
+        },
+        {
+          "width": 1280,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-1280w.webp"
+        },
+        {
+          "width": 640,
+          "format": "webp",
+          "path": "processed_media/images/restodanny-heritagewebsite-screenshot-640w.webp"
+        }
       ],
       "videos": [],
       "html": "processed_media/html/restodanny-heritagewebsite-screenshot.html"
-    },
-    "source_url": "https://restodanny.com"
+    }
   }
 ]

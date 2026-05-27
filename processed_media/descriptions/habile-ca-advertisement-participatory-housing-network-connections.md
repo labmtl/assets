@@ -1,0 +1,5 @@
+This image is an advertisement for HABILE.ca, which stands for "Hébergement Participatif & Solidaire" (Participatory and Solidarity Housing). The design features a network of interconnected dots and lines forming a web-like structure, symbolizing connectivity and community. At the center of the image, there is a stylized house icon with a gradient color scheme transitioning from blue to green to orange. Surrounding this central house are smaller illustrations of various buildings, including houses, a library, and other community structures, all connected by the same network pattern.
+
+The text on the right side of the image reads "HABILE.ca," followed by "Hébergement Participatif & Solidaire" and "Réseau Habitation Hub Montréal." At the bottom, there is a motivational phrase in French: "« Reprenez le contrôle de votre milieu de vie »," which translates to "Take control of your living environment."
+
+Filename: HABILE_ca_Advertisement_Participatory_Housing_Network_Connections.jpg
