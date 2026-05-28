@@ -48,10 +48,19 @@ def main():
         
         existing_asset = existing_assets.get(flag_file.name, {})
 
+        # Determine valid description to use
+        existing_desc = existing_asset.get("description", description)
+        if isinstance(existing_desc, dict):
+            # If localized but values are just "...", fall back to the actual description
+            if existing_desc.get("en") == "..." or existing_desc.get("fr") == "...":
+                existing_desc = description
+        elif existing_desc == "...":
+            existing_desc = description
+
         asset = {
             "id": flag_file.name, # The original MD5 hash
             "base_name": existing_asset.get("base_name", base_name),
-            "description": existing_asset.get("description", description),
+            "description": existing_desc,
             "labels": existing_asset.get("labels", []),
             "steps": steps,
             "formats": {
