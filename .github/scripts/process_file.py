@@ -103,11 +103,16 @@ def main():
                 record_step_in_flag_file(flag_file_path, STEP_GEMINI_DESCRIPTION)
                 record_base_name_in_flag_file(flag_file_path, current_base_name)
                 processed_steps.add(STEP_GEMINI_DESCRIPTION)
+            else:
+                log_message(f"OVHcloud returned an error or generic name: {current_base_name}", "ERROR")
+                sys.exit(1)
         else:
             log_message(f"OVHcloud failed: {result.stderr}", "ERROR")
+            sys.exit(1)
 
     if not current_base_name:
-        current_base_name = f"media-{args.file_hash[:8]}"
+        log_message("Failed to retrieve a base name from LLM description step.", "ERROR")
+        sys.exit(1)
 
     # ---- Type Detection ----
     ext = Path(args.input_file).suffix.lower()

@@ -130,8 +130,8 @@ def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Inst
                 concise_filename = re.sub(r'[^a-z0-9\-]', '', first_line.lower().replace(' ', '-').replace('_', '-')).strip('-')
         
         # Final safety check
-        if not concise_filename or len(concise_filename) < 3:
-            concise_filename = f"media-{args.file_hash[:8]}" if 'args' in locals() and hasattr(args, 'file_hash') else "generic-media"
+        if not concise_filename or len(concise_filename) < 3 or concise_filename == "generic-media":
+            raise ValueError("Failed to generate a valid concise filename from the AI model response.")
 
         md_filename = os.path.join(output_dir, f"{concise_filename}.md")
         os.makedirs(os.path.dirname(md_filename), exist_ok=True)
@@ -142,7 +142,7 @@ def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Inst
 
     except Exception as e:
         print(f"Error calling OVHcloud AI Endpoints: {e}", file=sys.stderr)
-        return f"error-ovh-failed"
+        raise
 
 import re
 if __name__ == "__main__":

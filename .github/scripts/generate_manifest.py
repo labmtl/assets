@@ -132,6 +132,9 @@ def generate_index_html(assets):
         html_path = asset.get("formats", {}).get("html")
         if html_path:
             title = asset.get("title", {})
+        if isinstance(title, str):
+            title_text = title
+        else:
             title_text = title.get("en", title.get("fr", asset.get("base_name", "Unknown")))
             if isinstance(title_text, dict):
                 title_text = title_text.get("en", title_text.get("fr", asset.get("base_name", "Unknown")))
