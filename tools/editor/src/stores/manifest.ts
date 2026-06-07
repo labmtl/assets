@@ -24,6 +24,7 @@ export interface MediaItem {
   };
 }
 
+const isProd = import.meta.env.PROD;
 const API_BASE = 'http://localhost:3000';
 
 export const useManifestStore = defineStore('manifest', {
@@ -47,7 +48,8 @@ export const useManifestStore = defineStore('manifest', {
     async fetchManifest() {
       this.loading = true;
       try {
-        const response = await axios.get(`${API_BASE}/api/manifest`);
+        const url = isProd ? '../processed_media/manifest.json' : `${API_BASE}/api/manifest`;
+        const response = await axios.get(url);
         this.items = response.data.map((item: any) => {
           // Ensure title and description are multilingual objects
           const title = typeof item.title === 'string'

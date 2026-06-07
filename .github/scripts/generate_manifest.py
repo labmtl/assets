@@ -99,5 +99,54 @@ def main():
         
     print(f"Manifest generated with {len(assets)} assets at {manifest_path}")
 
+    # Generate root index.html
+    generate_index_html(assets)
+
+def generate_index_html(assets):
+    html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabMTL Assets</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 10px; padding: 10px; background: #f4f4f4; border-radius: 5px; }
+        .editor-link { display: inline-block; margin-bottom: 20px; padding: 10px 15px; background: #0066cc; color: white; border-radius: 5px; font-weight: bold; }
+        .editor-link:hover { background: #0052a3; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>LabMTL Media Assets</h1>
+
+    <a href="editor/index.html" class="editor-link">Open Manifest Editor</a>
+
+    <h2>Processed HTML Snippets</h2>
+    <ul>
+"""
+    for asset in assets:
+        html_path = asset.get("formats", {}).get("html")
+        if html_path:
+            title = asset.get("title", {})
+            if isinstance(title, str):
+                title_text = title
+            else:
+                title_text = title.get("en", title.get("fr", asset.get("base_name", "Unknown")))
+                if isinstance(title_text, dict):
+                    title_text = title_text.get("en", title_text.get("fr", asset.get("base_name", "Unknown")))
+            html_content += f'        <li><a href="{html_path}">{title_text}</a> ({html_path})</li>\n'
+
+    html_content += """    </ul>
+</body>
+</html>"""
+
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html_content)
+    print("Generated root index.html")
+
 if __name__ == "__main__":
     main()
