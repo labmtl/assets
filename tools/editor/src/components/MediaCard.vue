@@ -51,7 +51,9 @@ const thumbnailUrl = computed(() => {
   const img = props.item.formats.images.find((f: any) => f.width === 640 && f.format === 'webp')
     || props.item.formats.images.find((f: any) => f.format === 'webp')
     || props.item.formats.images[0];
-  return `http://localhost:3000/${img?.path}`;
+  const isProd = import.meta.env.PROD;
+  if (!img?.path) return '';
+  return isProd ? `../${img.path}` : `http://localhost:3000/${img.path}`;
 });
 </script>
 

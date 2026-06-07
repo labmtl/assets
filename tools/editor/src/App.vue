@@ -24,6 +24,9 @@
         <el-button :icon="MagicStick" @click="slideshowDialogVisible = true">
           Generate Slideshow
         </el-button>
+        <el-button type="success" :icon="Download" @click="handleDownloadJSON">
+          Download JSON
+        </el-button>
         <el-button type="primary" :icon="Upload" @click="handleSave" :loading="saving">
           Save Changes
         </el-button>
@@ -92,7 +95,7 @@
                 :data-label="selectedSlideshowLabel"
                 :data-lang="slideshowConfig.lang"
                 :data-overlay="slideshowConfig.isOverlay"
-                data-manifest="http://localhost:3000/api/manifest"
+                :data-manifest="manifestUrl"
               >
                 <!-- Preview will be rendered here -->
               </div>
@@ -168,7 +171,7 @@
       custom-class="dark-drawer"
     >
       <div v-if="activeItem" class="drawer-content">
-        <img :src="`http://localhost:3000/${activeItem.formats.images[0].path}`" class="preview-img" />
+        <img :src="getMediaUrl(activeItem.formats.images[0]?.path)" class="preview-img" />
         
         <div class="field-group">
           <label>Title (English)</label>
@@ -227,7 +230,7 @@
             <span class="fmt-tag">{{ fmt.width }}w ({{ fmt.format }})</span>
             <el-link 
               type="primary" 
-              :href="`http://localhost:3000/${fmt.path}`" 
+              :href="getMediaUrl(fmt.path)"
               target="_blank"
               class="fmt-link"
             >
@@ -246,10 +249,18 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
-import { Search, Upload, Files, MagicStick, Delete, Check } from '@element-plus/icons-vue';
+import { Search, Upload, Download, Files, MagicStick, Delete, Check } from '@element-plus/icons-vue';
 import { ElMessage, ElMessageBox } from 'element-plus';
 import { useManifestStore, type MediaItem } from './stores/manifest';
 import MediaCard from './components/MediaCard.vue';
+
+const isProd = import.meta.env.PROD;
+const manifestUrl = isProd ? '../processed_media/manifest.json' : 'http://localhost:3000/api/manifest';
+
+const getMediaUrl = (path: string | undefined) => {
+  if (!path) return '';
+  return isProd ? `../${path}` : `http://localhost:3000/${path}`;
+};
 
 const store = useManifestStore();
 const searchQuery = ref('');
@@ -342,6 +353,20 @@ const handleSave = async () => {
   } finally {
     saving.value = false;
   }
+};
+
+const handleDownloadJSON = () => {
+  const data = JSON.stringify(store.items, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'manifest.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  ElMessage.success('Manifest downloaded. You can now manually commit it to the repo.');
 };
 
 const handleItemSave = async () => {
