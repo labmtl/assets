@@ -4,17 +4,21 @@ import base64
 import requests
 import sys
 import subprocess
+import time
+import random
 from pathlib import Path
+
 
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
+
 def extract_frames(video_path, num_frames=8):
     """Extracts a sequence of frames from a video using ffmpeg."""
     temp_dir = Path("temp_frames")
     temp_dir.mkdir(exist_ok=True)
-    
+
     # Remove old frames
     for f in temp_dir.glob("*.jpg"):
         f.unlink()
@@ -39,8 +43,9 @@ def extract_frames(video_path, num_frames=8):
         subprocess.run(cmd, capture_output=True)
         if frame_path.exists():
             frames.append(str(frame_path))
-    
+
     return frames
+
 
 def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Instruct"):
     # Correct API endpoint for OVHcloud AI Endpoints
@@ -87,14 +92,61 @@ def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Inst
     }
 
     try:
-        response = requests.post(endpoint, headers=headers, json=payload)
+        max_attempts = 6
+        response = None
+
+        for attempt in range(max_attempts):
+            try:
+                response = requests.post(
+                    endpoint,
+                    headers=headers,
+                    json=payload,
+                    timeout=120,
+                )
+            except requests.RequestException:
+                if attempt == max_attempts - 1:
+                    raise
+
+                delay = min(60, 2 ** attempt * 5) + random.uniform(0, 2)
+                print(
+                    f"OVH request failed; retrying in {delay:.1f}s "
+                    f"(attempt {attempt + 1}/{max_attempts})",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
+                continue
+
+            if response.status_code != 429 and response.status_code < 500:
+                break
+
+            if attempt == max_attempts - 1:
+                break
+
+            retry_after = response.headers.get("Retry-After")
+            try:
+                delay = float(retry_after) if retry_after else min(60, 2 ** attempt * 5)
+            except ValueError:
+                delay = min(60, 2 ** attempt * 5)
+
+            delay += random.uniform(0, 2)
+            print(
+                f"OVH returned HTTP {response.status_code}; retrying in {delay:.1f}s "
+                f"(attempt {attempt + 1}/{max_attempts})",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+        if response is None:
+            raise RuntimeError("No response received from OVHcloud")
+
         if response.status_code != 200:
             print(f"\n--- OVH API ERROR ---", file=sys.stderr)
             print(f"Status: {response.status_code}", file=sys.stderr)
             print(f"Body: {response.text[:1000]}", file=sys.stderr)
             print(f"----------------------\n", file=sys.stderr)
+
         response.raise_for_status()
-        
+
         try:
             data = response.json()
         except Exception as json_err:
@@ -107,28 +159,28 @@ def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Inst
         # Extract filename (heuristically if model doesn't follow instructions perfectly)
         # We ask for a concise filename in the prompt.
         # Let's try to split the response into a filename and description.
-        
+
         # Improvement: Ask for a specific format in prompt
         # Actually, let's just use the first line as filename if it's short, or generic.
-        
+
         lines = full_text.strip().split('\n')
         concise_filename = "generic-media"
-        
+
         # Heuristic 1: Look for a line starting with "Filename:"
         for line in lines:
             clean_line = line.strip()
             if clean_line.lower().startswith("filename:"):
                 potential_name = clean_line.split(":", 1)[1].strip()
-                potential_name = Path(potential_name).stem # Remove extension if any
+                potential_name = Path(potential_name).stem  # Remove extension if any
                 concise_filename = re.sub(r'[^a-z0-9\-]', '', potential_name.lower().replace(' ', '-').replace('_', '-')).strip('-')
                 break
-        
+
         # Heuristic 2: Fallback to first line if still generic
         if concise_filename == "generic-media":
             first_line = lines[0].strip()
             if 5 < len(first_line) < 100:
                 concise_filename = re.sub(r'[^a-z0-9\-]', '', first_line.lower().replace(' ', '-').replace('_', '-')).strip('-')
-        
+
         # Final safety check
         if not concise_filename or len(concise_filename) < 3 or concise_filename == "generic-media":
             raise ValueError("Failed to generate a valid concise filename from the AI model response.")
@@ -137,14 +189,17 @@ def get_ovh_description(token, file_path, output_dir, model="Qwen2.5-VL-72B-Inst
         os.makedirs(os.path.dirname(md_filename), exist_ok=True)
         with open(md_filename, "w", encoding="utf-8") as f:
             f.write(full_text)
-            
+
         return concise_filename
 
     except Exception as e:
         print(f"Error calling OVHcloud AI Endpoints: {e}", file=sys.stderr)
         raise
 
+
 import re
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Get media description from OVHcloud AI Endpoints.")
     parser.add_argument("token", help="OVHcloud AI Token")
