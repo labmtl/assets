@@ -46,6 +46,9 @@ def get_descriptions(api_key, file_path, output_dir):
             if sanitized_filename:
                 concise_filename_text = sanitized_filename
 
+        if concise_filename_text == "generic-media-file":
+            raise ValueError("Failed to generate a valid concise filename from Gemini API.")
+
         full_description_text = "No detailed description available."
         if response_full_desc and response_full_desc.text:
             full_description_text = response_full_desc.text.strip()
@@ -61,13 +64,7 @@ def get_descriptions(api_key, file_path, output_dir):
 
     except Exception as e:
         print(f"Error interacting with Gemini API: {e}", file=sys.stderr)
-        error_msg = sanitize_filename(str(e))
-        fallback_filename = f"error-api-failed-{error_msg}"
-        md_filename = os.path.join(output_dir, f"{fallback_filename}.md")
-        os.makedirs(os.path.dirname(md_filename), exist_ok=True)
-        with open(md_filename, "w", encoding="utf-8") as f:
-            f.write(f"Error interacting with Gemini API: {e}")
-        return fallback_filename
+        raise
     finally:
         if sample_file:
             genai.delete_file(sample_file.name)

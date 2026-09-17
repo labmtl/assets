@@ -1,0 +1,13 @@
+exclude:
+  - "tools/"
+  - "uploads/"
+  - "processed_flags/"
+  - ".github/"
+  - ".env"
+  - ".envrc"
+  - "flake.lock"
+  - "flake.nix"
+  - "local_process_all.sh"
+  - "SETUP.md"
+  - "TOOL_SPEC.md"
+  - "AGENTS.md"
