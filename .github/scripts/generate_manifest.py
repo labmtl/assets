@@ -53,10 +53,11 @@ def main():
         if isinstance(existing_desc, dict):
             # If localized but values are just "...", replace them with the actual description
             # while preserving the dictionary structure.
-            if existing_desc.get("en") == "...":
-                existing_desc["en"] = description
-            if existing_desc.get("fr") == "...":
-                existing_desc["fr"] = description
+        if isinstance(existing_desc, dict):
+            existing_desc = {
+                k: (description if v == "..." else v)
+                for k, v in existing_desc.items()
+            }
         elif existing_desc == "...":
             existing_desc = description
 
